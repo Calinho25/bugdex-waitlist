@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bugdex — Discover what is living around you</title>
+    <meta
+      name="description"
+      content="Photograph insects, identify your finds and build a personal collection of the wildlife living around you. Join the Bugdex early-access waitlist."
+    />
+    <meta name="theme-color" content="#f8f5ea" />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://bugdex.app/" />
+    <link rel="icon" type="image/png" href="assets/bugdex-icon.png" />
+    <link rel="apple-touch-icon" href="assets/bugdex-icon.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bugdex — Discover the tiny world around you" />
+    <meta
+      property="og:description"
+      content="Photograph insects, identify your finds and build a personal collection. Join the early-access waitlist."
+    />
+    <meta property="og:url" content="https://bugdex.app/" />
+    <meta property="og:image" content="https://bugdex.app/assets/bugdex-icon.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bugdex — Discover the tiny world around you" />
+    <meta
+      name="twitter:description"
+      content="Photograph insects, identify your finds and build a personal collection. Join the early-access waitlist."
+    />
+    <meta name="twitter:image" content="https://bugdex.app/assets/bugdex-icon.png" />
+
+    <link rel="preload" href="assets/bugdex-mark.png" as="image" />
+    <link rel="preload" href="assets/bugdex-discovery.webp" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="container nav" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="Bugdex home">
+          <img class="brand-mark" src="assets/bugdex-mark.png" alt="" width="52" height="49" />
+          <span class="brand-name">Bugdex</span>
+        </a>
+        <div class="nav-actions">
+          <a class="nav-link" href="#how-it-works">How it works</a>
+          <a class="button button-small" href="#waitlist">Join the waitlist</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div class="hero-copy fade-in">
+            <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> Explore the wildlife around you</p>
+            <h1 id="hero-title">Discover the tiny world hiding around you.</h1>
+            <p class="hero-text">
+              Photograph insects, identify what you find, build your collection and explore the wildlife living all around you.
+            </p>
+
+            <div id="waitlist" class="waitlist-anchor" aria-label="Early-access waitlist">
+              <form class="waitlist-form" data-waitlist-form novalidate>
+                <label class="sr-only" for="hero-email">Email address</label>
+                <div class="form-row">
+                  <input
+                    id="hero-email"
+                    name="email"
+                    type="email"
+                    inputmode="email"
+                    autocomplete="email"
+                    placeholder="Enter your email address"
+                    required
+                    aria-describedby="hero-form-message"
+                  />
+                  <input class="honeypot" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" />
+                  <button class="button form-button" type="submit">
+                    <span class="button-label">Join the early-access waitlist</span>
+                    <span class="button-loading" aria-hidden="true">Joining…</span>
+                  </button>
+                </div>
+                <p class="form-message" id="hero-form-message" data-form-message aria-live="polite"></p>
+              </form>
+              <p class="form-note">Be among the first to try Bugdex when early access opens. No spam.</p>
+            </div>
+          </div>
+
+          <div class="hero-preview fade-in" aria-label="Preview of the Bugdex app">
+            <span class="decorative-sprig sprig-one" aria-hidden="true"></span>
+            <span class="decorative-sprig sprig-two" aria-hidden="true"></span>
+            <div class="screenshot-stack">
+              <figure class="app-screenshot-card screenshot-secondary">
+                <img
+                  src="assets/bugdex-explore.webp"
+                  alt="Bugdex Explore screen showing nearby insects, a search bar and a seasonal wildlife spotlight"
+                  width="620"
+                  height="1342"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+              <figure class="app-screenshot-card screenshot-primary">
+                <img
+                  src="assets/bugdex-discovery.webp"
+                  alt="Bugdex discovery result screen for a European stag beetle with nearby sightings and an add-to-collection button"
+                  width="620"
+                  height="1341"
+                  decoding="async"
+                  fetchpriority="high"
+                />
+              </figure>
+            </div>
+            <p class="preview-caption">A first look at Bugdex</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section how-it-works" id="how-it-works" aria-labelledby="how-title">
+        <div class="container">
+          <div class="section-heading fade-in">
+            <p class="eyebrow">A field guide in your pocket</p>
+            <h2 id="how-title">Turn everyday encounters into discoveries.</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card fade-in">
+              <div class="feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M8.5 5.5 10 3h4l1.5 2.5H18A3 3 0 0 1 21 8.5v8A3 3 0 0 1 18 19H6a3 3 0 0 1-3-3v-7.5a3 3 0 0 1 3-3h2.5Z"></path><circle cx="12" cy="12" r="3.5"></circle></svg>
+              </div>
+              <h3>Snap a photo</h3>
+              <p>Take a picture of an insect or small creature you find.</p>
+            </article>
+
+            <article class="feature-card fade-in">
+              <div class="feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m15.5 15.5 5 5"></path><path d="M8 10.5h5M10.5 8v5"></path></svg>
+              </div>
+              <h3>Identify your find</h3>
+              <p>Learn what you discovered and uncover interesting facts about it.</p>
+            </article>
+
+            <article class="feature-card fade-in">
+              <div class="feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M6 4h12a2 2 0 0 1 2 2v14H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z"></path><path d="M8 4v16M11.5 9.5c.6-1.4 2.4-1.4 3 0 .6 1.5-.3 3.1-1.5 4-1.2-.9-2.1-2.5-1.5-4Z"></path></svg>
+              </div>
+              <h3>Build your Bugdex</h3>
+              <p>Save your sightings and create a personal collection of the wildlife around you.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="exploration" aria-labelledby="explore-title">
+        <div class="container exploration-grid">
+          <div class="exploration-copy fade-in">
+            <p class="eyebrow">Closer than it seems</p>
+            <h2 id="explore-title">Nature is closer than you think.</h2>
+            <p>
+              Your garden, balcony, local park and walking route are full of hidden wildlife. Bugdex is designed to make exploring it easy, rewarding and fun.
+            </p>
+          </div>
+          <div class="nature-art fade-in" aria-hidden="true">
+            <svg class="nature-svg" viewBox="0 0 420 260" role="presentation">
+              <path class="nature-stroke" d="M52 224c61-40 75-101 75-181"></path>
+              <path class="nature-stroke" d="M108 89c-28-19-49-17-67 4 28 12 51 10 67-4Z"></path>
+              <path class="nature-stroke" d="M123 133c31-27 61-25 80-1-32 15-59 15-80 1Z"></path>
+              <path class="nature-stroke" d="M112 173c-28-13-52-5-66 18 28 6 49 0 66-18Z"></path>
+              <circle class="nature-stroke" cx="280" cy="108" r="54"></circle>
+              <path class="nature-stroke" d="m319 148 45 45"></path>
+              <path class="nature-fill" d="M260 109c0-16 10-29 20-29s20 13 20 29-9 30-20 30-20-14-20-30Zm20-29v59M259 101l-15-10M301 101l15-10M258 116l-17 3M302 116l17 3M264 132l-11 14M296 132l11 14M270 82l-8-14M290 82l8-14"></path>
+              <path class="nature-fill" d="M357 70c5-8 15-8 20 0-5 8-15 8-20 0Zm10-10v21M357 59l-8-7M377 59l8-7"></path>
+              <path class="nature-fill" d="M208 49c4-7 13-7 17 0-4 7-13 7-17 0Zm8.5-9v18M208 40l-7-6M225 40l7-6"></path>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <section class="section final-cta" aria-labelledby="final-title">
+        <div class="container final-card fade-in">
+          <span class="final-leaf final-leaf-left" aria-hidden="true"></span>
+          <span class="final-leaf final-leaf-right" aria-hidden="true"></span>
+          <p class="eyebrow">Join the first explorers</p>
+          <h2 id="final-title">Start noticing the world beneath your feet.</h2>
+          <p>Join the waitlist and be the first to know when Bugdex is ready to explore.</p>
+          <form class="waitlist-form final-form" data-waitlist-form novalidate>
+            <label class="sr-only" for="footer-email">Email address</label>
+            <div class="form-row">
+              <input
+                id="footer-email"
+                name="email"
+                type="email"
+                inputmode="email"
+                autocomplete="email"
+                placeholder="Enter your email address"
+                required
+                aria-describedby="footer-form-message"
+              />
+              <input class="honeypot" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" />
+              <button class="button form-button" type="submit">
+                <span class="button-label">Join the early-access waitlist</span>
+                <span class="button-loading" aria-hidden="true">Joining…</span>
+              </button>
+            </div>
+            <p class="form-message" id="footer-form-message" data-form-message aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand footer-brand" href="#top" aria-label="Bugdex home">
+            <img class="brand-mark" src="assets/bugdex-mark.png" alt="" width="46" height="43" />
+            <span class="brand-name">Bugdex</span>
+          </a>
+          <p>Bugdex — Discover what is living around you.</p>
+        </div>
+        <div class="footer-right">
+          <div class="footer-links">
+            <button class="footer-link link-button" type="button" data-open-privacy>Privacy</button>
+            <a class="footer-link" href="mailto:hello@bugdex.app">Contact</a>
+            <!-- Replace # with the Bugdex Instagram URL once it is live. -->
+            <a class="instagram-link" href="#" data-instagram-placeholder aria-label="Bugdex on Instagram">
+              <svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.4" cy="6.7" r="1"></circle></svg>
+            </a>
+          </div>
+          <p>© 2026 Bugdex. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <dialog class="privacy-dialog" data-privacy-dialog>
+      <div class="dialog-inner">
+        <div class="dialog-heading">
+          <h2>Privacy</h2>
+          <button class="dialog-close" type="button" data-close-privacy aria-label="Close privacy notice">×</button>
+        </div>
+        <p>
+          When you join the Bugdex waitlist, we store your email address so that we can contact you about early access and launch updates. We do not sell your information or send unrelated marketing emails.
+        </p>
+        <p>
+          To ask a question or request removal from the waitlist, contact <a href="mailto:hello@bugdex.app">hello@bugdex.app</a>.
+        </p>
+      </div>
+    </dialog>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
